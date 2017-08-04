@@ -1,0 +1,149 @@
+body {
+	max-width: 1200px;
+}
+
+.board {
+	max-width: 500px;
+	height: 500px;
+	background: url(../img/checkers.jpg) center center no-repeat;
+	background-size: contain;
+	position: relative;
+	margin: 100px auto;
+	transform: rotate(25deg);
+}
+
+.board div {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.grey-check {
+	background-color: #303030;
+	position: absolute;
+}
+
+.red-check {
+	background-color: #e10011;
+	position: absolute;
+}
+
+.grey-check__1 {
+	top: 6%;
+	left: 17%;
+}
+
+.grey-check__2 {
+	top: 6%;
+	left: 39%;
+}
+
+.grey-check__3 {
+	top: 6%;
+	right: 28%;
+}
+
+.grey-check__4 {
+	top: 6%;
+	right: 6%;
+}
+
+.grey-check__5 {
+	top: 17%;
+	left: 6%;
+}
+
+.grey-check__6 {
+	top: 17%;
+	left: 28%;
+}
+
+.grey-check__7 {
+	top: 17%;
+	right: 39%;
+}
+
+.grey-check__8 {
+	top: 17%;
+	right: 17%;
+}
+
+.grey-check__9 {
+	top: 28%;
+	left: 17%;
+}
+
+.grey-check__10 {
+	top: 28%;
+	left: 39%;
+}
+
+.grey-check__11 {
+	top: 28%;
+	right: 28%;
+}
+
+.grey-check__12 {
+	top: 28%;
+	right: 6%;
+}
+
+.red-check__1 {
+	bottom: 28%;
+	left: 6%;
+}
+
+.red-check__2 {
+	bottom: 28%;
+	left: 28%;
+}
+
+.red-check__3 {
+	bottom: 28%;
+	right: 40%;
+}
+
+.red-check__4 {
+	bottom: 28%;
+	right: 17%;
+}
+
+.red-check__5 {
+	bottom: 17%;
+	left: 17%;
+}
+
+.red-check__6 {
+	bottom: 17%;
+	left: 39%;
+}
+
+.red-check__7 {
+	bottom: 17%;
+	right: 28%;
+}
+
+.red-check__8 {
+	bottom: 17%;
+	right: 6%;
+}
+
+.red-check__9 {
+	bottom: 6%;
+	left: 6%;
+}
+
+.red-check__10 {
+	bottom: 6%;
+	left: 28%;
+}
+
+.red-check__11 {
+	bottom: 6%;
+	right: 40%;
+}
+
+.red-check__12 {
+	bottom: 6%;
+	right: 17%;
+}
